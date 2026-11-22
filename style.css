@@ -404,7 +404,7 @@ footer{
     }
 
     .COURSES {
-        grid-template-columns: 1fr;
+        flex-wrap: wrap;
     }
 
     form {
