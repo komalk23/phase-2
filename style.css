@@ -139,7 +139,8 @@ b{
     color:#14213d; 
 }
 .photo{
-background: linear-gradient(90deg, #EBF4F5, #d0dcee);    height: 280px;
+background: linear-gradient(90deg, #EBF4F5, #d0dcee);  
+  height: 280px;
 }
 .details,.Skills,.hobbies{
 background: linear-gradient(90deg, #EBF4F5, #B5C6E0);
@@ -149,7 +150,8 @@ width:33vw;
 }
 
 .Goals,.About,.contact{
-background: linear-gradient(90deg, #EBF4F5, #d0dcee);    margin-top: 10px;
+background: linear-gradient(90deg, #EBF4F5, #d0dcee);   
+ margin-top: 10px;
     margin-bottom: 10px;
 padding: 10px;
 
@@ -172,18 +174,21 @@ ul,ol{
 }
 
 .COURSES {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    display: flex;
     gap: 20px;
+    justify-content: center;
     margin: 20px;
 }
 
 .course-item {
-background: linear-gradient(90deg, #EBF4F5, #d0dcee);    padding: 25px;
+    background: linear-gradient(90deg, #EBF4F5, #d0dcee);
+    padding: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid #ccc;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .topics {
@@ -197,13 +202,15 @@ background: linear-gradient(90deg, #EBF4F5, #d0dcee);    padding: 25px;
 form{
     width:80vw;
     margin: auto;
-background: linear-gradient(90deg, #EBF4F5, #d0dcee);    margin-top: 20px;
+background: linear-gradient(90deg, #EBF4F5, #d0dcee);  
+  margin-top: 20px;
     margin-bottom: 20px;
     padding: 10px;
     border-radius: 10px;
     box-shadow: #6f1d1b 0 0 10px;
 }
-label{
+label :not(input[type="radio"]){
+    display: block;
     font-size: 1.3rem;
 }
 input[type="text"], input[type="email"], input[type="tel"], select
@@ -228,7 +235,7 @@ button[type="submit"], button[type="reset"]{
     border-radius: 4px;
     margin: 10px;
 }
-input:focus, textarea:focus ,select:hover{
+input:focus, textarea:focus ,select:focus{
     border: 2px solid blue;
     outline: none;
     background-color: lightyellow;
@@ -241,7 +248,6 @@ button[type="submit"]:hover, button[type="reset"]:hover{
     margin: 5px;
 }
 textarea{
-    position:sticky;
     width: 100%;
     max-width: 100%;
     resize: vertical;
@@ -313,7 +319,8 @@ tfoot {
 .Information{
     text-align: center;
     margin: 10px;
-background: linear-gradient(90deg, #EBF4F5, #d0dcee);    padding: 10px;
+background: linear-gradient(90deg, #EBF4F5, #d0dcee);  
+  padding: 10px;
 }
 .Information h2{
     color: #14213d;
@@ -337,7 +344,8 @@ background: linear-gradient(90deg, #EBF4F5, #d0dcee);    padding: 10px;
 .location{
     text-align: center;
     margin: 10px;
-background: linear-gradient(90deg, #EBF4F5, #d0dcee);    padding: 10px;
+background: linear-gradient(90deg, #EBF4F5, #d0dcee);  
+  padding: 10px;
 }
 iframe{
     width: 100%;
@@ -347,7 +355,8 @@ iframe{
 .office{
     text-align: center;
     margin: 10px;
-background: linear-gradient(90deg, #EBF4F5, #d0dcee);    padding: 10px;
+background: linear-gradient(90deg, #EBF4F5, #d0dcee); 
+   padding: 10px;
 }
 
 
