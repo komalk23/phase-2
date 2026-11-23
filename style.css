@@ -72,7 +72,7 @@ main h2{
     font-size: 36px;
 }
 .welcome:hover{
-    transform: scale(1.0);
+    transform: scale(0.8);
 }
 .introduction{
     text-align: center;
