@@ -72,7 +72,7 @@ main h2{
     font-size: 36px;
 }
 .welcome:hover{
-    transform: translateX(20px);
+    transform: scale(1.1);
 }
 .introduction{
     text-align: center;
@@ -81,7 +81,7 @@ background: linear-gradient(90deg, #EBF4F5, #d0dcee);    margin-top: 40px;
     border-radius: 10px;
 }
 .introduction:hover{
-    transform: translateX(20px);
+    transform: scale(1.1);
 }
 .Tip{
     text-align: center;
@@ -90,7 +90,7 @@ background: linear-gradient(90deg, #EBF4F5, #d0dcee);    margin-top: 40px;
     border-radius: 10px;
 }
 .Tip:hover{
-    transform: translateX(20px);
+    transform: scale(1.1);
 }
 p{
     font-size: 20px;
