@@ -81,7 +81,7 @@ background: linear-gradient(90deg, #EBF4F5, #d0dcee);    margin-top: 40px;
     border-radius: 10px;
 }
 .introduction:hover{
-    transform: scale(1.1);
+    transform: scale(1.04);
 }
 .Tip{
     text-align: center;
